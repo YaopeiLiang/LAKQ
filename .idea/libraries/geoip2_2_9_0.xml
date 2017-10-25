@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="geoip2-2.9.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/freegeoip/geoip2-2.9.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/freegeoip/maxmind-db-1.2.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/lib/freegeoip/geoip2-2.9.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/freegeoip/geoip2-2.9.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uclassify xmlns="http://api.uclassify.com/1/server/RequestSchema" version="1.00"> 
+<texts>
+<text id="text_1">Memory</text>
+</texts>
+<readCalls>
+<classify id="call_1" classifierName="uClassify_Topics" textId="text_1" />
+</readCalls>
+</uclassify>
