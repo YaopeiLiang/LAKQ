@@ -11,6 +11,19 @@ import java.util.*;
  * Created by lenovo on 2017/7/2.
  */
 public class DataOperation {
+
+    public static <T> List<T> getListData(String path,ListReader<T> listReader){
+        try(BufferedReader reader=new BufferedReader(new InputStreamReader(new FileInputStream(path)))){
+            return listReader.readList(reader);
+        }catch (FileNotFoundException e){
+            e.printStackTrace();
+        }catch (IOException e){
+            e.printStackTrace();
+        }
+        return null;
+
+    }
+
     public static <T> Set<T> getFilterSet(String input,DataFilter<T> dataFilter){
         try(BufferedReader reader=new BufferedReader(new InputStreamReader(new FileInputStream(input)))){
             return dataFilter.filterSet(reader);
